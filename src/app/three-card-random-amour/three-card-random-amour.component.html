@@ -1,0 +1,31 @@
+<div class="mainBox">
+    <div  id="presentationText">
+        <p>Bienvenue, dans la catégorie Amour</p>
+    </div>
+    <div>
+        <button type="button" class="btn btn-outline-light" id="btn"
+            (click)="getThreeCard()">Tirage 3 cartes</button>
+    </div>
+    <div class="row" id="boxCard">
+        <div class="col-sm">
+            <img id="card" img src={{firstCard.photo}} />
+            <h2 id="text">
+                {{firstCard.nom}}
+            </h2>
+            <p id="text">{{firstCard.description}}</p>
+        </div>
+        <div class="col-sm">
+            <img id="card" img src={{secondCard.photo}} />
+            <h2 id="text">
+                {{secondCard.nom}}
+            </h2>
+            <p id="text">{{secondCard.description}}</p>
+        </div>
+        <div class="col-sm">
+            <img id="card" img src={{thirdCard.photo}} />
+            <h2 id="text">
+                {{thirdCard.nom}}
+            </h2>
+            <p id="text">{{thirdCard.description}}</p>
+        </div>
+    </div>

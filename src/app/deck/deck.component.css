@@ -1,0 +1,26 @@
+#text {
+    color: rgb(179, 185, 190);
+}
+
+#boxCard {
+    margin-top: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+}
+
+#card {
+    height: 250px;
+    width: 170px;
+}
+
+#presentationText {
+    margin: 5%;
+    color: rgb(179, 185, 190);
+}
+
+.mainBox {
+    text-align:center;
+    margin-left: 340px;
+    margin-right: 60px;
+}

@@ -1,0 +1,9 @@
+#boxComponent {
+    font-size: 13.5px;
+    height: auto;
+    width: 15%;
+    padding-left: 10px;
+    padding-top: 10px;
+    background-color: rgb(179, 185, 190);
+    float: left;
+}

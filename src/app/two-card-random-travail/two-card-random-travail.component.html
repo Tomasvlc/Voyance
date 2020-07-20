@@ -1,0 +1,25 @@
+<div class="mainBox">
+    <div id="presentationText">
+        <p>Bienvenue, dans la catégorie Travail</p>
+    </div>
+    <div>
+        <button type="button" class="btn btn-outline-light" id="btn"
+            (click)="getTwoCard()">Tirage 2 cartes</button>
+    </div>
+    <div class="row" id="text">
+        <div class="col">
+            <img id="card" img src={{firstCard.photo}} />
+            <h2>
+                {{firstCard.nom}}
+            </h2>
+            <p>{{firstCard.description}}</p>
+        </div>
+        <div class="col">
+            <img id="card" img src={{secondCard.photo}} />
+            <h2>
+                {{secondCard.nom}}
+            </h2>
+            <p>{{secondCard.description}}</p>
+        </div>
+    </div>
+</div>

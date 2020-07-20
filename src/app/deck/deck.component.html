@@ -1,0 +1,16 @@
+<div class="mainBox">
+    <div id="presentationText">
+        <h1>Présentation du deck</h1>
+    </div>
+    <!-- inline 1 -->
+    <div *ngFor="let card of cards" class="row" id="boxCard">
+        <div class="col">
+            <img id="card" img src={{card.photo}} />
+            <h2 id="text">
+                {{card.nom}}
+            </h2>
+            <p id="text">{{card.description}}</p>
+        </div>
+    </div>
+
+</div>
